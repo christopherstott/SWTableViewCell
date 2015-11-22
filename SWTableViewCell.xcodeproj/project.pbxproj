@@ -17,6 +17,11 @@
 		810308961846579B00C378F0 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 810308901846579B00C378F0 /* SWUtilityButtonView.m */; };
 		810308A2184D682700C378F0 /* um.png in Resources */ = {isa = PBXBuildFile; fileRef = 810308A1184D682700C378F0 /* um.png */; };
 		810308A5184D688D00C378F0 /* UMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 810308A4184D688D00C378F0 /* UMTableViewCell.m */; };
+		83519B1B1C014DE600AD8673 /* SWTableViewCellStubFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 83519B1A1C014DE600AD8673 /* SWTableViewCellStubFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83519B221C014DE700AD8673 /* SWTableViewCellStubFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83519B181C014DE600AD8673 /* SWTableViewCellStubFramework.framework */; };
+		83519B291C014DE700AD8673 /* SWTableViewCellStubFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83519B281C014DE700AD8673 /* SWTableViewCellStubFrameworkTests.swift */; };
+		83519B2D1C014DE700AD8673 /* SWTableViewCellStubFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83519B181C014DE600AD8673 /* SWTableViewCellStubFramework.framework */; };
+		83519B2E1C014DE700AD8673 /* SWTableViewCellStubFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83519B181C014DE600AD8673 /* SWTableViewCellStubFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AF28B0F117F77DA300A77ABB /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF28B0F017F77DA300A77ABB /* clock@2x.png */; };
 		AF28B0F317F77DA600A77ABB /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF28B0F217F77DA600A77ABB /* cross@2x.png */; };
 		AF28B0F517F77DB000A77ABB /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF28B0F417F77DB000A77ABB /* check@2x.png */; };
@@ -43,7 +48,42 @@
 			remoteGlobalIDString = AF34B76417DEE2B100BD9082;
 			remoteInfo = SWTableViewCell;
 		};
+		83519B231C014DE700AD8673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF34B75D17DEE2AE00BD9082 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83519B171C014DE600AD8673;
+			remoteInfo = SWTableViewCellStubFramework;
+		};
+		83519B251C014DE700AD8673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF34B75D17DEE2AE00BD9082 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF34B76417DEE2B100BD9082;
+			remoteInfo = SWTableViewCell;
+		};
+		83519B2B1C014DE700AD8673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF34B75D17DEE2AE00BD9082 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83519B171C014DE600AD8673;
+			remoteInfo = SWTableViewCellStubFramework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		83519B341C014DE700AD8673 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				83519B2E1C014DE700AD8673 /* SWTableViewCellStubFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		561A417CAF3000B9397EB62B /* Pods-SWTableViewCellTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWTableViewCellTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWTableViewCellTests/Pods-SWTableViewCellTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +105,12 @@
 		810308A1184D682700C378F0 /* um.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = um.png; sourceTree = "<group>"; };
 		810308A3184D688D00C378F0 /* UMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMTableViewCell.h; sourceTree = "<group>"; };
 		810308A4184D688D00C378F0 /* UMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMTableViewCell.m; sourceTree = "<group>"; };
+		83519B181C014DE600AD8673 /* SWTableViewCellStubFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWTableViewCellStubFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83519B1A1C014DE600AD8673 /* SWTableViewCellStubFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWTableViewCellStubFramework.h; sourceTree = "<group>"; };
+		83519B1C1C014DE600AD8673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83519B211C014DE700AD8673 /* SWTableViewCellStubFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWTableViewCellStubFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83519B281C014DE700AD8673 /* SWTableViewCellStubFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTableViewCellStubFrameworkTests.swift; sourceTree = "<group>"; };
+		83519B2A1C014DE700AD8673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92B6FCB0D9F5F5976482C755 /* libPods-SWTableViewCellTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SWTableViewCellTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF28B0F017F77DA300A77ABB /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
 		AF28B0F217F77DA600A77ABB /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
@@ -100,6 +146,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		83519B141C014DE600AD8673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83519B1E1C014DE700AD8673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83519B221C014DE700AD8673 /* SWTableViewCellStubFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AF34B76217DEE2B100BD9082 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -107,6 +168,7 @@
 				AF34B76917DEE2B200BD9082 /* UIKit.framework in Frameworks */,
 				AF34B76B17DEE2B200BD9082 /* Foundation.framework in Frameworks */,
 				AF34B76D17DEE2B200BD9082 /* CoreGraphics.framework in Frameworks */,
+				83519B2D1C014DE700AD8673 /* SWTableViewCellStubFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,11 +220,31 @@
 			path = PodFiles;
 			sourceTree = "<group>";
 		};
+		83519B191C014DE600AD8673 /* SWTableViewCellStubFramework */ = {
+			isa = PBXGroup;
+			children = (
+				83519B1A1C014DE600AD8673 /* SWTableViewCellStubFramework.h */,
+				83519B1C1C014DE600AD8673 /* Info.plist */,
+			);
+			path = SWTableViewCellStubFramework;
+			sourceTree = "<group>";
+		};
+		83519B271C014DE700AD8673 /* SWTableViewCellStubFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				83519B281C014DE700AD8673 /* SWTableViewCellStubFrameworkTests.swift */,
+				83519B2A1C014DE700AD8673 /* Info.plist */,
+			);
+			path = SWTableViewCellStubFrameworkTests;
+			sourceTree = "<group>";
+		};
 		AF34B75C17DEE2AD00BD9082 = {
 			isa = PBXGroup;
 			children = (
 				AF34B76E17DEE2B200BD9082 /* SWTableViewCell */,
 				76D732641AE2F50100909802 /* SWTableViewCellTests */,
+				83519B191C014DE600AD8673 /* SWTableViewCellStubFramework */,
+				83519B271C014DE700AD8673 /* SWTableViewCellStubFrameworkTests */,
 				AF34B76717DEE2B200BD9082 /* Frameworks */,
 				AF34B76617DEE2B200BD9082 /* Products */,
 				55277640D2AABB814E20D3F5 /* Pods */,
@@ -174,6 +256,8 @@
 			children = (
 				AF34B76517DEE2B200BD9082 /* SWTableViewCell.app */,
 				76D732631AE2F50100909802 /* SWTableViewCellTests.xctest */,
+				83519B181C014DE600AD8673 /* SWTableViewCellStubFramework.framework */,
+				83519B211C014DE700AD8673 /* SWTableViewCellStubFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -228,6 +312,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		83519B151C014DE600AD8673 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83519B1B1C014DE600AD8673 /* SWTableViewCellStubFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		76D732621AE2F50100909802 /* SWTableViewCellTests */ = {
 			isa = PBXNativeTarget;
@@ -249,6 +344,43 @@
 			productReference = 76D732631AE2F50100909802 /* SWTableViewCellTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		83519B171C014DE600AD8673 /* SWTableViewCellStubFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83519B331C014DE700AD8673 /* Build configuration list for PBXNativeTarget "SWTableViewCellStubFramework" */;
+			buildPhases = (
+				83519B131C014DE600AD8673 /* Sources */,
+				83519B141C014DE600AD8673 /* Frameworks */,
+				83519B151C014DE600AD8673 /* Headers */,
+				83519B161C014DE600AD8673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWTableViewCellStubFramework;
+			productName = SWTableViewCellStubFramework;
+			productReference = 83519B181C014DE600AD8673 /* SWTableViewCellStubFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83519B201C014DE700AD8673 /* SWTableViewCellStubFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83519B351C014DE700AD8673 /* Build configuration list for PBXNativeTarget "SWTableViewCellStubFrameworkTests" */;
+			buildPhases = (
+				83519B1D1C014DE700AD8673 /* Sources */,
+				83519B1E1C014DE700AD8673 /* Frameworks */,
+				83519B1F1C014DE700AD8673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83519B241C014DE700AD8673 /* PBXTargetDependency */,
+				83519B261C014DE700AD8673 /* PBXTargetDependency */,
+			);
+			name = SWTableViewCellStubFrameworkTests;
+			productName = SWTableViewCellStubFrameworkTests;
+			productReference = 83519B211C014DE700AD8673 /* SWTableViewCellStubFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		AF34B76417DEE2B100BD9082 /* SWTableViewCell */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF34B78817DEE2B900BD9082 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */;
@@ -256,10 +388,12 @@
 				AF34B76117DEE2B100BD9082 /* Sources */,
 				AF34B76217DEE2B100BD9082 /* Frameworks */,
 				AF34B76317DEE2B100BD9082 /* Resources */,
+				83519B341C014DE700AD8673 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				83519B2C1C014DE700AD8673 /* PBXTargetDependency */,
 			);
 			name = SWTableViewCell;
 			productName = SWTableViewCell;
@@ -272,11 +406,20 @@
 		AF34B75D17DEE2AE00BD9082 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Chris Wendel";
 				TargetAttributes = {
 					76D732621AE2F50100909802 = {
 						CreatedOnToolsVersion = 6.3;
+						TestTargetID = AF34B76417DEE2B100BD9082;
+					};
+					83519B171C014DE600AD8673 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = CRQMUWXT26;
+					};
+					83519B201C014DE700AD8673 = {
+						CreatedOnToolsVersion = 7.1;
 						TestTargetID = AF34B76417DEE2B100BD9082;
 					};
 					AF34B76417DEE2B100BD9082 = {
@@ -298,12 +441,28 @@
 			targets = (
 				AF34B76417DEE2B100BD9082 /* SWTableViewCell */,
 				76D732621AE2F50100909802 /* SWTableViewCellTests */,
+				83519B171C014DE600AD8673 /* SWTableViewCellStubFramework */,
+				83519B201C014DE700AD8673 /* SWTableViewCellStubFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		76D732611AE2F50100909802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83519B161C014DE600AD8673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83519B1F1C014DE700AD8673 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,6 +531,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		83519B131C014DE600AD8673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83519B1D1C014DE700AD8673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83519B291C014DE700AD8673 /* SWTableViewCellStubFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AF34B76117DEE2B100BD9082 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,6 +570,21 @@
 			isa = PBXTargetDependency;
 			target = AF34B76417DEE2B100BD9082 /* SWTableViewCell */;
 			targetProxy = 76D732691AE2F50200909802 /* PBXContainerItemProxy */;
+		};
+		83519B241C014DE700AD8673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83519B171C014DE600AD8673 /* SWTableViewCellStubFramework */;
+			targetProxy = 83519B231C014DE700AD8673 /* PBXContainerItemProxy */;
+		};
+		83519B261C014DE700AD8673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF34B76417DEE2B100BD9082 /* SWTableViewCell */;
+			targetProxy = 83519B251C014DE700AD8673 /* PBXContainerItemProxy */;
+		};
+		83519B2C1C014DE700AD8673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83519B171C014DE600AD8673 /* SWTableViewCellStubFramework */;
+			targetProxy = 83519B2B1C014DE700AD8673 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -487,6 +676,140 @@
 			};
 			name = Release;
 		};
+		83519B2F1C014DE700AD8673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = SWTableViewCellStubFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = framework.SWTableViewCellStubFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83519B301C014DE700AD8673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = SWTableViewCellStubFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = framework.SWTableViewCellStubFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83519B311C014DE700AD8673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = SWTableViewCellStubFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = framework.SWTableViewCellStubFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWTableViewCell.app/SWTableViewCell";
+			};
+			name = Debug;
+		};
+		83519B321C014DE700AD8673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = SWTableViewCellStubFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = framework.SWTableViewCellStubFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWTableViewCell.app/SWTableViewCell";
+			};
+			name = Release;
+		};
 		AF34B78617DEE2B800BD9082 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -556,6 +879,7 @@
 				GCC_PREFIX_HEADER = "SWTableViewCell/SWTableViewCell-Prefix.pch";
 				INFOPLIST_FILE = "SWTableViewCell/SWTableViewCell-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -571,6 +895,7 @@
 				GCC_PREFIX_HEADER = "SWTableViewCell/SWTableViewCell-Prefix.pch";
 				INFOPLIST_FILE = "SWTableViewCell/SWTableViewCell-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -588,6 +913,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		83519B331C014DE700AD8673 /* Build configuration list for PBXNativeTarget "SWTableViewCellStubFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83519B2F1C014DE700AD8673 /* Debug */,
+				83519B301C014DE700AD8673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83519B351C014DE700AD8673 /* Build configuration list for PBXNativeTarget "SWTableViewCellStubFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83519B311C014DE700AD8673 /* Debug */,
+				83519B321C014DE700AD8673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		AF34B76017DEE2AE00BD9082 /* Build configuration list for PBXProject "SWTableViewCell" */ = {
 			isa = XCConfigurationList;
